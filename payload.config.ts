@@ -51,6 +51,11 @@ export default buildConfig({
           type: 'text',
         },
         {
+          name: 'description',
+          type: 'text',
+          required: true,
+        },
+        {
           name: 'content',
           type: 'richText',
         },
